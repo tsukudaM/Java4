@@ -5,9 +5,11 @@
 StoppableController.javaはキャンバスの左半分をクリックするとボールが、右半分をクリックすると雫の画像が落ちてくるプログラムです。StoppableBall.javaはボールを描画するためのクラス、FallingRainDrop.javaは雫を描画するためのクラスです。インターフェースとしてStoppable.javaを作成しました。
 
 ## RecSpiral.java / Spiral.java / Roop.java / BasedRoop.java / RecSpiralInterface.java
-次の図のような画像を描画するプログラムです。再帰とインターフェースを使って書いた点でJava3に入っているSpiral.javaとは異なったプログラムとなっています。Roop.javaは正方形を描くクラス、BasedRoop.javaは中身が何も入っていないクラスです。Spiral.javaはRoopを描画するクラスで、ifを使ってRoop.javaを再帰させています。
+ユーザーがドラッグした範囲に次の図のような画像を描画するプログラムです。再帰とインターフェースを使って書いた点で、Java3に入っているSpiral.javaとは異なったプログラムとなっています。Roop.javaは正方形を描くクラス、BasedRoop.javaは中身が何も入っていないクラスです。Spiral.javaはRoopを描画するクラスで、ifを使ってRoop.javaを再帰させています。
 
-## TenCircles.java / DrawTenCircles.java
+![描画される図の例](image4/spiral.JPG "描画される図の例")
+
+## TenCircles.java / drawTenCircles.java
 プログラムTenCircles.javaは次のような動きをします。
 
 * 最初にマウスをクリックすると直径が100の赤い円を表示させます。
